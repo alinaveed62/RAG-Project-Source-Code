@@ -1,0 +1,41 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short --strict-markers --strict-config"
+# Narrowly-scoped warning filters: silence only the specific third-party
+# deprecations we have audited as safe (swig-wrapped pdfplumber symbols and
+# scipy's bootstrap degenerate-data warning). Anything else still surfaces.
+filterwarnings = [
+    "ignore:builtin type SwigPyPacked has no __module__ attribute:DeprecationWarning",
+    "ignore:builtin type SwigPyObject has no __module__ attribute:DeprecationWarning",
+    "ignore:builtin type swigvarlink has no __module__ attribute:DeprecationWarning",
+    "ignore:The BCa confidence interval cannot be calculated:RuntimeWarning",
+    "ignore:An input array is constant:RuntimeWarning",
+    "ignore:invalid value encountered in scalar divide:RuntimeWarning",
+    "ignore:invalid value encountered in divide:RuntimeWarning",
+]
+
+[tool.coverage.run]
+branch = true
+source = ["."]
+omit = [
+    "tests/*",
+    "*/tests/*",
+    "venv/*",
+    "*/__pycache__/*",
+    "data/*",
+    "results/*",
+]
+
+[tool.coverage.report]
+fail_under = 100
+show_missing = true
+skip_covered = false
+exclude_lines = [
+    "pragma: no cover",
+    "if __name__ == \"__main__\":",
+    "if TYPE_CHECKING:",
+    "raise NotImplementedError",
+]

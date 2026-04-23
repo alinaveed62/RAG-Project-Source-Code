@@ -1,0 +1,82 @@
+{
+  "total_documents": 185,
+  "total_chunks": 379,
+  "chunks_per_section": {
+    "Induction sessions and resources": 14,
+    "Key Information for Students": 5,
+    "Main": 118,
+    "Modules": 10,
+    "Programmes": 118,
+    "Questions, answers & useful resources": 44,
+    "Student Voice": 9,
+    "Support & Wellbeing": 2,
+    "Teaching & Assessment": 42,
+    "The Faculty & The Department": 17
+  },
+  "documents_per_section": {
+    "Induction sessions and resources": 4,
+    "Key Information for Students": 4,
+    "Main": 79,
+    "Modules": 5,
+    "Programmes": 47,
+    "Questions, answers & useful resources": 6,
+    "Student Voice": 4,
+    "Support & Wellbeing": 2,
+    "Teaching & Assessment": 23,
+    "The Faculty & The Department": 11
+  },
+  "documents_per_section_from_docs": {
+    "Induction sessions and resources": 4,
+    "Key Information for Students": 4,
+    "Main": 79,
+    "Modules": 5,
+    "Programmes": 47,
+    "Questions, answers & useful resources": 6,
+    "Student Voice": 4,
+    "Support & Wellbeing": 2,
+    "Teaching & Assessment": 23,
+    "The Faculty & The Department": 11
+  },
+  "resource_types_seen": {
+    "unknown": 185
+  },
+  "sections_with_zero_chunks": [],
+  "discovered_total": 33,
+  "processed_total": 185,
+  "missing_urls": [
+    "https://keats.kcl.ac.uk/mod/book/view.php?id=7718710",
+    "https://keats.kcl.ac.uk/mod/book/view.php?id=8665151",
+    "https://keats.kcl.ac.uk/mod/book/view.php?id=8665153&chapterid=865977",
+    "https://keats.kcl.ac.uk/mod/book/view.php?id=8665187",
+    "https://keats.kcl.ac.uk/mod/book/view.php?id=8665190",
+    "https://keats.kcl.ac.uk/mod/book/view.php?id=8665193",
+    "https://keats.kcl.ac.uk/mod/book/view.php?id=8665194",
+    "https://keats.kcl.ac.uk/mod/book/view.php?id=8665196",
+    "https://keats.kcl.ac.uk/mod/book/view.php?id=8665199",
+    "https://keats.kcl.ac.uk/mod/book/view.php?id=8665200",
+    "https://keats.kcl.ac.uk/mod/book/view.php?id=8665202",
+    "https://keats.kcl.ac.uk/mod/book/view.php?id=8665204",
+    "https://keats.kcl.ac.uk/mod/book/view.php?id=8665209",
+    "https://keats.kcl.ac.uk/mod/book/view.php?id=9028035",
+    "https://keats.kcl.ac.uk/mod/book/view.php?id=9124444",
+    "https://keats.kcl.ac.uk/mod/glossary/view.php?id=8665208",
+    "https://keats.kcl.ac.uk/mod/resource/view.php?id=9187865",
+    "https://keats.kcl.ac.uk/mod/url/view.php?id=8665197",
+    "https://keats.kcl.ac.uk/mod/url/view.php?id=9177496",
+    "https://keats.kcl.ac.uk/mod/url/view.php?id=9177497",
+    "https://keats.kcl.ac.uk/mod/url/view.php?id=9193972"
+  ],
+  "missing_count": 21,
+  "discovered_per_section": {
+    "Induction sessions and resources": 5,
+    "Key Information for Students": 1,
+    "Main": 7,
+    "Modules": 1,
+    "Programmes": 9,
+    "Questions, answers & useful resources": 6,
+    "Student Voice": 1,
+    "Support & Wellbeing": 1,
+    "Teaching & Assessment": 1,
+    "The Faculty & The Department": 1
+  }
+}

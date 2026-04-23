@@ -1,0 +1,15 @@
+# Top-level dependency manifest compiled into ``requirements.lock`` via
+# ``pip-compile``. Maintains the union of the per-package requirements
+# files so a fresh environment can be set up with one command
+# (see ``docs/REPRODUCIBILITY.md``).
+-r keats_scraper/requirements.txt
+-r rag_pipeline/requirements.txt
+-r flask_app/requirements.txt
+-r evaluation/requirements.txt
+# Static-analysis gate (see ``scripts/check.sh``).
+mypy>=1.10
+ruff>=0.5.0
+# Reproducibility tooling.
+pip-tools>=7.0
+# Scraper HTTP-mock integration testing
+responses>=0.24

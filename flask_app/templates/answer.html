@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="question-display">
+        <strong>Your question:</strong> {{ question }}
+    </div>
+
+    <div class="answer-display">
+        <h2>Answer</h2>
+        <p>{{ answer }}</p>
+        {% if citations %}
+        <div class="citation-chips" aria-label="Citations for this answer">
+            <span class="citation-chips-label">Cited:</span>
+            {% for c in citations %}
+            <a class="citation-chip" href="#source-{{ c.chunk_id }}" title="Jump to source chunk {{ c.chunk_id }}">{{ c.chunk_id }}</a>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+
+    <details class="sources-section">
+        <summary>Sources ({{ sources|length }})</summary>
+        <ul class="source-list">
+            {% for s in sources %}
+            <li class="source-item" id="source-{{ s.chunk_id }}">
+                <span class="source-score">Score: {{ "%.3f"|format(s.score) }}</span>
+                <span class="source-chunk-id">[{{ s.chunk_id }}]</span>
+                <strong>{{ s.title }}</strong> ({{ s.section }})
+                {% if s.heading_path %}
+                <div class="source-path">{% for part in s.heading_path %}{% if not loop.first %} &rsaquo; {% endif %}{{ part }}{% endfor %}</div>
+                {% endif %}
+                <p class="source-text">{{ s.text[:200] }}{% if s.text|length > 200 %}...{% endif %}</p>
+            </li>
+            {% endfor %}
+        </ul>
+    </details>
+
+    <div class="timing">
+        Retrieval: {{ "%.0f"|format(retrieval_time_ms) }}ms
+        {% if rerank_time_ms | default(0) > 0 %}
+        | Rerank: {{ "%.0f"|format(rerank_time_ms) }}ms
+        {% endif %}
+        | Generation: {{ "%.0f"|format(generation_time_ms) }}ms
+    </div>
+
+    <hr>
+
+    <div class="feedback-section">
+        <h3>Rate this answer</h3>
+        <form method="POST" action="/feedback" class="feedback-form">
+            <input type="hidden" name="question" value="{{ question }}">
+
+            <div class="rating-group">
+                <label>Answer quality:</label>
+                <div class="star-rating" data-name="answer_rating">
+                    {% for i in range(1, 6) %}
+                    <input type="radio" name="answer_rating" value="{{ i }}" id="answer_{{ i }}" required>
+                    <label for="answer_{{ i }}" class="star">&#9733;</label>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="rating-group">
+                <label>Source relevance:</label>
+                <div class="star-rating" data-name="source_rating">
+                    {% for i in range(1, 6) %}
+                    <input type="radio" name="source_rating" value="{{ i }}" id="source_{{ i }}" required>
+                    <label for="source_{{ i }}" class="star">&#9733;</label>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="comments-group">
+                <label for="comments">Comments (optional):</label>
+                <textarea id="comments" name="comments" rows="2"></textarea>
+            </div>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+
+    <a href="/" class="ask-another">Ask another question</a>
+</div>
+{% endblock %}

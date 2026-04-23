@@ -1,0 +1,12 @@
+rouge-score>=0.1.2
+bert-score>=0.3.13
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+scipy>=1.10.0
+statsmodels>=0.14.0
+numpy>=1.26.0
+sentence-transformers>=2.6.0
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0

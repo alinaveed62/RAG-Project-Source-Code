@@ -1,0 +1,14 @@
+# Direct dependencies. transformers / torch / accelerate arrive transitively
+# via sentence-transformers; listing them here would drift against sentence-
+# transformers' own pins. The shipped Ollama backend runs on Apple Silicon
+# (Metal/MPS) and CPU; bitsandbytes is not used and is not required.
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+pydantic>=2.5.0
+
+# Local LLM inference via Ollama (Apple Silicon / CPU).
+ollama>=0.4.0
+
+# BM25 sparse retrieval baseline (retrieval_comparison experiment).
+rank-bm25>=0.2.2

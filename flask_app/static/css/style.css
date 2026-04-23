@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #6e1d45;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.disclaimer {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.container {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+    background-color: #fee;
+    border: 1px solid #fcc;
+    color: #c33;
+    padding: 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.success {
+    background-color: #efe;
+    border: 1px solid #cfc;
+    color: #363;
+    padding: 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.question-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.question-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    resize: vertical;
+    font-family: inherit;
+}
+
+.question-form button,
+.feedback-form button {
+    margin-top: 1rem;
+    padding: 0.75rem 2rem;
+    background-color: #6e1d45;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.question-form button:hover,
+.feedback-form button:hover {
+    background-color: #8a2558;
+}
+
+.question-display {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+}
+
+.answer-display {
+    margin-bottom: 1.5rem;
+}
+
+.answer-display h2 {
+    margin-bottom: 0.5rem;
+    color: #6e1d45;
+}
+
+.sources-section {
+    margin-bottom: 1rem;
+}
+
+.sources-section summary {
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+
+.source-list {
+    list-style: none;
+    padding: 0;
+}
+
+.source-item {
+    border: 1px solid #eee;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+}
+
+.source-score {
+    float: right;
+    color: #888;
+    font-size: 0.85rem;
+}
+
+.source-text {
+    margin-top: 0.5rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.timing {
+    color: #888;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+}
+
+.feedback-section {
+    margin-top: 1rem;
+}
+
+.feedback-section h3 {
+    margin-bottom: 0.75rem;
+}
+
+.rating-group {
+    margin-bottom: 0.75rem;
+}
+
+.rating-group label:first-child {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+}
+
+.star-rating {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    gap: 0.1rem;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating .star {
+    font-size: 1.5rem;
+    color: #ddd;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.star-rating input:checked ~ .star,
+.star-rating .star:hover,
+.star-rating .star:hover ~ .star {
+    color: #f5a623;
+}
+
+.comments-group {
+    margin-bottom: 0.75rem;
+}
+
+.comments-group label {
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.comments-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.ask-another {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #6e1d45;
+    text-decoration: none;
+}
+
+.ask-another:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: #888;
+    font-size: 0.85rem;
+}
+
+.citation-chips {
+    margin-top: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.85rem;
+}
+
+.citation-chips-label {
+    color: #666;
+    margin-right: 0.25rem;
+}
+
+.citation-chip {
+    display: inline-block;
+    padding: 0.15rem 0.55rem;
+    background-color: #6e1d45;
+    color: white;
+    border-radius: 999px;
+    text-decoration: none;
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.8rem;
+}
+
+.citation-chip:hover {
+    background-color: #8a2558;
+    text-decoration: none;
+}
+
+.citation-chip:focus-visible {
+    background-color: #8a2558;
+    outline: 2px solid #8a2558;
+    outline-offset: 2px;
+    text-decoration: none;
+}
+
+.source-chunk-id {
+    color: #6e1d45;
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.85rem;
+    margin-right: 0.4rem;
+}

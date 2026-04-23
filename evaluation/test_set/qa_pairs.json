@@ -1,0 +1,402 @@
+[
+  {
+    "id": "att_01",
+    "question": "Do I have to attend all my lectures?",
+    "category": "attendance",
+    "expected_answer": "Students are expected to attend all scheduled teaching activities including lectures, tutorials, and seminars. The university monitors engagement and attendance.",
+    "relevant_sections": ["Teaching & Assessment"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "att_02",
+    "question": "What happens if I miss too many classes?",
+    "category": "attendance",
+    "expected_answer": "Students who fail to engage with their studies may be subject to the engagement monitoring process, which can affect visa status for international students.",
+    "relevant_sections": ["Teaching & Assessment"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "att_03",
+    "question": "How is student engagement monitored?",
+    "category": "attendance",
+    "expected_answer": "The university monitors student engagement through attendance records, submission of coursework, and participation in teaching activities.",
+    "relevant_sections": ["Teaching & Assessment"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "att_04",
+    "question": "Can I be withdrawn from my programme for non-attendance?",
+    "category": "attendance",
+    "expected_answer": "Students who persistently fail to engage may be subject to withdrawal procedures.",
+    "relevant_sections": ["Teaching & Assessment"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "att_05",
+    "question": "Do I need to attend online lectures?",
+    "category": "attendance",
+    "expected_answer": "Students are expected to attend all scheduled teaching activities, including those delivered online.",
+    "relevant_sections": ["Teaching & Assessment"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "ass_01",
+    "question": "How do I submit an extenuating circumstances claim?",
+    "category": "assessment",
+    "expected_answer": "Extenuating circumstances claims should be submitted through the online system within the specified deadline, with supporting evidence.",
+    "relevant_sections": ["Teaching & Assessment"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "ass_02",
+    "question": "What is the deadline for EC claims?",
+    "category": "assessment",
+    "expected_answer": "Extenuating circumstances claims must be submitted within the specified timeframe as outlined in the regulations.",
+    "relevant_sections": ["Teaching & Assessment"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "ass_03",
+    "question": "How are exams graded at KCL?",
+    "category": "assessment",
+    "expected_answer": "KCL uses the College Marking Framework with grade bands and descriptors for assessment.",
+    "relevant_sections": ["Teaching & Assessment"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "ass_04",
+    "question": "Can I get an extension on my coursework deadline?",
+    "category": "assessment",
+    "expected_answer": "Extensions may be granted through the extenuating circumstances process with appropriate evidence.",
+    "relevant_sections": ["Teaching & Assessment"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "ass_05",
+    "question": "What happens if I fail a module?",
+    "category": "assessment",
+    "expected_answer": "Students who fail a module may be offered a resit opportunity, subject to the assessment regulations.",
+    "relevant_sections": ["Teaching & Assessment"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "ass_06",
+    "question": "What is the late submission penalty?",
+    "category": "assessment",
+    "expected_answer": "Late submissions are subject to penalties as defined in the college regulations, typically a deduction of marks per day late.",
+    "relevant_sections": ["Teaching & Assessment"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "ass_07",
+    "question": "How does the marking framework work?",
+    "category": "assessment",
+    "expected_answer": "The College Marking Framework provides standardised grade descriptors across all programmes to ensure consistency in assessment.",
+    "relevant_sections": ["Teaching & Assessment"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "off_01",
+    "question": "How can I contact my personal tutor?",
+    "category": "office_hours",
+    "expected_answer": "Students can contact their personal tutor via email or during scheduled office hours.",
+    "relevant_sections": ["Main", "The Faculty & The Department"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "off_02",
+    "question": "Who is the Director of Education for Informatics?",
+    "category": "office_hours",
+    "expected_answer": "The Director of Education information can be found in the department contacts section of the handbook.",
+    "relevant_sections": ["The Faculty & The Department"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "off_03",
+    "question": "Where is the Department of Informatics located?",
+    "category": "office_hours",
+    "expected_answer": "The Department of Informatics is located at King's College London.",
+    "relevant_sections": ["The Faculty & The Department", "Main"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "off_04",
+    "question": "How do I book an appointment with my supervisor?",
+    "category": "office_hours",
+    "expected_answer": "Students should contact their supervisor directly to arrange meetings, either via email or during office hours.",
+    "relevant_sections": ["Main", "The Faculty & The Department"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "off_05",
+    "question": "Who should I contact about module choices?",
+    "category": "office_hours",
+    "expected_answer": "Students should consult their personal tutor or the programme director about module selection.",
+    "relevant_sections": ["Main", "Programmes"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "rep_01",
+    "question": "How do student representatives get elected?",
+    "category": "representation",
+    "expected_answer": "Student representatives are elected at the start of each academic year through a democratic process.",
+    "relevant_sections": ["Student Voice"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "rep_02",
+    "question": "What is the Staff-Student Liaison Committee?",
+    "category": "representation",
+    "expected_answer": "The SSLC is a committee where student representatives meet with staff to discuss course-related matters and student feedback.",
+    "relevant_sections": ["Student Voice"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "rep_03",
+    "question": "How can I become a student rep?",
+    "category": "representation",
+    "expected_answer": "Students can nominate themselves or be nominated for the role of student representative at the start of the academic year.",
+    "relevant_sections": ["Student Voice"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "rep_04",
+    "question": "What role do student reps play?",
+    "category": "representation",
+    "expected_answer": "Student representatives gather feedback from their cohort and represent student views in departmental committees.",
+    "relevant_sections": ["Student Voice"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "rep_05",
+    "question": "How can I provide feedback about my course?",
+    "category": "representation",
+    "expected_answer": "Students can provide feedback through student surveys, their student representative, or the SSLC.",
+    "relevant_sections": ["Student Voice", "Questions, answers & useful resources"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "prog_01",
+    "question": "What modules are in the BSc Computer Science programme?",
+    "category": "programmes",
+    "expected_answer": "The BSc Computer Science programme includes core and optional modules across all years of study.",
+    "relevant_sections": ["Programmes"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "prog_02",
+    "question": "How many credits do I need to graduate?",
+    "category": "programmes",
+    "expected_answer": "Students typically need to complete 360 credits for a BSc degree or 180 credits for a PGT degree.",
+    "relevant_sections": ["Programmes"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "prog_03",
+    "question": "What MSc programmes does the Department of Informatics offer?",
+    "category": "programmes",
+    "expected_answer": "The Department of Informatics offers various MSc programmes in areas such as Computer Science, Artificial Intelligence, and Data Science.",
+    "relevant_sections": ["Programmes"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "prog_04",
+    "question": "Can I change my programme after starting?",
+    "category": "programmes",
+    "expected_answer": "Programme transfers may be possible subject to meeting entry requirements and availability.",
+    "relevant_sections": ["Programmes", "Main"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "prog_05",
+    "question": "What is the structure of the final year project?",
+    "category": "programmes",
+    "expected_answer": "The final year project is a substantial piece of independent work supervised by an academic member of staff.",
+    "relevant_sections": ["Programmes"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "prog_06",
+    "question": "How do optional modules work?",
+    "category": "programmes",
+    "expected_answer": "Students select optional modules from an approved list to complement their core modules and specialise their studies.",
+    "relevant_sections": ["Programmes", "Modules"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "sup_01",
+    "question": "What support is available for disabled students?",
+    "category": "support",
+    "expected_answer": "The university provides support through the Disability Advisory Service, including reasonable adjustments and Student Support Plans.",
+    "relevant_sections": ["Support & Wellbeing", "Main"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "sup_02",
+    "question": "Where can I get mental health support?",
+    "category": "support",
+    "expected_answer": "Mental health support is available through the university's counselling and wellbeing services.",
+    "relevant_sections": ["Support & Wellbeing", "Main"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "sup_03",
+    "question": "What is a Student Support Plan?",
+    "category": "support",
+    "expected_answer": "A Student Support Plan (SSP) outlines the reasonable adjustments and support arrangements for students with disabilities or specific learning difficulties.",
+    "relevant_sections": ["Support & Wellbeing"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "sup_04",
+    "question": "How do I access academic skills support?",
+    "category": "support",
+    "expected_answer": "Academic skills support is available through the university's learning development services.",
+    "relevant_sections": ["Support & Wellbeing", "Main"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "sup_05",
+    "question": "What support is available for international students?",
+    "category": "support",
+    "expected_answer": "International students can access support through the international student advisory service, including visa and immigration guidance.",
+    "relevant_sections": ["Support & Wellbeing", "Main"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "admin_01",
+    "question": "How do I enrol at the start of the year?",
+    "category": "administrative",
+    "expected_answer": "Students must complete online enrolment through the university portal before the start of each academic year.",
+    "relevant_sections": ["Main", "Induction sessions and resources"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "admin_02",
+    "question": "What are the key dates for the academic year?",
+    "category": "administrative",
+    "expected_answer": "Key dates including term dates, exam periods, and deadlines are published in the academic calendar.",
+    "relevant_sections": ["Main", "Key Information for Students"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "admin_03",
+    "question": "How do I get my student ID card?",
+    "category": "administrative",
+    "expected_answer": "Student ID cards are issued during enrolment and induction.",
+    "relevant_sections": ["Induction sessions and resources", "Main"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "admin_04",
+    "question": "How do I access KEATS?",
+    "category": "administrative",
+    "expected_answer": "KEATS is accessed through the university portal using your KCL login credentials.",
+    "relevant_sections": ["Main", "Key Information for Students"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "admin_05",
+    "question": "What is the induction programme?",
+    "category": "administrative",
+    "expected_answer": "The induction programme introduces new students to the department, university services, and academic expectations.",
+    "relevant_sections": ["Induction sessions and resources"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "admin_06",
+    "question": "How do I set up my IT account?",
+    "category": "administrative",
+    "expected_answer": "IT accounts are set up during enrolment using the credentials provided by the university.",
+    "relevant_sections": ["Main", "Induction sessions and resources"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "gen_01",
+    "question": "What faculty is the Department of Informatics part of?",
+    "category": "general",
+    "expected_answer": "The Department of Informatics is part of the Faculty of Natural, Mathematical & Engineering Sciences (NMES).",
+    "relevant_sections": ["The Faculty & The Department"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "gen_02",
+    "question": "Who is the Head of Department?",
+    "category": "general",
+    "expected_answer": "The Head of Department information is available in the department handbook.",
+    "relevant_sections": ["The Faculty & The Department"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "gen_03",
+    "question": "What research groups are in the department?",
+    "category": "general",
+    "expected_answer": "The Department of Informatics has several research groups covering areas such as AI, software engineering, and theoretical computer science.",
+    "relevant_sections": ["The Faculty & The Department", "Main"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "gen_04",
+    "question": "What is the department's academic integrity policy?",
+    "category": "general",
+    "expected_answer": "The department follows the university's academic integrity policy, which covers plagiarism, collusion, and other forms of academic misconduct.",
+    "relevant_sections": ["Teaching & Assessment", "Main"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "gen_05",
+    "question": "How does the Board of Studies work?",
+    "category": "general",
+    "expected_answer": "The Board of Studies oversees academic standards, curriculum development, and programme regulations.",
+    "relevant_sections": ["The Faculty & The Department", "Student Voice"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "edge_01",
+    "question": "What is the weather forecast for London tomorrow?",
+    "category": "edge_cases",
+    "expected_answer": "This question is not related to the Student Handbook. The system should indicate it cannot answer this.",
+    "relevant_sections": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "edge_02",
+    "question": "Who won the World Cup?",
+    "category": "edge_cases",
+    "expected_answer": "This question is not related to the Student Handbook. The system should indicate it cannot answer this.",
+    "relevant_sections": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "edge_03",
+    "question": "Tell me about the Computer Science department at Oxford",
+    "category": "edge_cases",
+    "expected_answer": "This question is about a different university. The system should indicate it can only answer about KCL Informatics.",
+    "relevant_sections": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "edge_04",
+    "question": "EC PGT SSP KEATS",
+    "category": "edge_cases",
+    "expected_answer": "The system should handle abbreviation-heavy queries and attempt to retrieve relevant information.",
+    "relevant_sections": ["Teaching & Assessment", "Support & Wellbeing"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "edge_05",
+    "question": "",
+    "category": "edge_cases",
+    "expected_answer": "The system should handle empty queries gracefully.",
+    "relevant_sections": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "edge_06",
+    "question": "What is the meaning of life?",
+    "category": "edge_cases",
+    "expected_answer": "This question is not related to the Student Handbook.",
+    "relevant_sections": [],
+    "difficulty": "easy"
+  }
+]
